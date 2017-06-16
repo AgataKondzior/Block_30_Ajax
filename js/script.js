@@ -19,8 +19,7 @@ function loadData() {
     
     $greeting.text('So you want to live at ' + address + '?');
     
-    var streetViewUrl = 'https://maps.googleapis.com/maps/api/streetview?size=600x400&location=40.720032,-73.988354
-&fov=90&heading=235&pitch=10&key=AIzaSyC-vOTLyY9SeYYWmnFxX9kIf8Z2Bn3z5dw' + address;
+    var streetViewUrl = 'https://maps.googleapis.com/maps/api/streetview?size=600x400&location=&key=AIzaSyC-vOTLyY9SeYYWmnFxX9kIf8Z2Bn3z5dw' + address;
     $("body").append('<img class="bgimg" src="'+streetViewUrl+ '">');
  
     //  NYT AJAX request
