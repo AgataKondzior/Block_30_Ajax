@@ -15,7 +15,7 @@ body {
 }
 
 .greeting {
-    color:#696969;
+    color:white;
     text-shadow: 1px 1px 3px rgba(255,255,255, .5);
     text-align: center;
 }
